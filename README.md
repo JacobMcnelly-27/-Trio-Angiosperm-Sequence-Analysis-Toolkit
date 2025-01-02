@@ -25,28 +25,28 @@ Command-Line Arguments:
 Command-Line Examples:
 
 Batch Alignment:
-Bash
+Bash:
 python3 Angiosperm_Calculations.py -f align -i input_dir -o output_dir -t batch
 
 
 Compiled Alignment:
-Bash
+Bash:
 python3 Angiosperm_Calculations.py -f align -i input_file.fasta -o path/to/output/filename(no .phy) -t compiled
 
 Batch Tajima's D test:
-Bash
+Bash:
 python3 Angiosperm_Calculations.py -f tajima -i input_dir -o output.csv -t batch -a annual_tag -p perennial_tag -r outgroup_tag
 
 Compiled Tajima's D test:
-Bash
+Bash:
 python3 Angiosperm_Calculations.py -f tajima -i input_file.fasta -o output.csv -t compiled -a annual_tag -p perennial_tag -r outgroup_tag
 
 Batch PHYLIP conversion:
-Bash
+Bash:
 python3 Angiosperm_Calculations.py -f phylip -i input_dir -o output_dir -t batch
 
 Compiled PHYLIP conversion:
-Bash
+Bash:
 python3 Angiosperm_Calculations.py -f phylip -i input_file.fasta -o output_dir -t compiled
 
 
